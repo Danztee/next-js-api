@@ -36,4 +36,3 @@ export async function getStaticProps(context) {
 }
 
 export default Comment;
-upda;
