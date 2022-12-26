@@ -27,7 +27,6 @@ export async function getStaticProps(context) {
   const comment = comments.find(
     (comment) => comment.id === parseInt(commentId)
   );
-  console.log(comment);
 
   return {
     props: {
