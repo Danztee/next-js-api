@@ -4,7 +4,7 @@ import { comments } from "../../data/comments";
 const Comment = ({ comment }) => {
   return (
     <div>
-      {comment} . {comment.text}
+      {comment.id} . {comment.text}
     </div>
   );
 };
@@ -36,3 +36,4 @@ export async function getStaticProps(context) {
 }
 
 export default Comment;
+upda;
